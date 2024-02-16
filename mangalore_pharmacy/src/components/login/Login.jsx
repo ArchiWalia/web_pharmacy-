@@ -95,7 +95,7 @@ const LoginForm = () => {
         </div>
       </div>
 
-      <div className="w-1/3 bg-secondary-color h-full flex flex-col justify-between items-center " >
+      <div className="w-1/3 bg-secondary-color h-full lg:flex flex-col hidden justify-between items-center " >
 
         <div></div>
         <div className="flex flex-col items-center gap-5">
