@@ -1,14 +1,13 @@
-import Navbar from './components/navbar/Navbar'
-import Home from './pages/Home'
+import React from 'react';
+import Homefull from './pages/Homefull';
 
 function App() {
-
   return (
     <>
-     {/* <Navbar /> */}
-     <Home />
+     <Homefull />
     </>
   )
 }
 
-export default App
+export default App;
+

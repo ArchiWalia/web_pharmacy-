@@ -4,20 +4,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from '../components/login/Login';
 import Signup from '../components/signup/Signup';
 import Navbar from '../components/navbar/Navbar';
+import Sidebar from '../components/sidebar/Sidebar';
 
-function Home() {
+function Homefull() {
   return (
-    <div>
-      {/* <Router>  */}
+      <div>
         <Navbar />
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/" element={<Sidebar />} />
         </Routes>
-             {/* </Router> */}
-
-    </div>
+      </div>
   );
 }
 
-export default Home;
+export default Homefull;

@@ -7,20 +7,18 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center">
                     <div className="flex-shrink-0 text-white">
-                        <a href="/" className="font-bold text-xl">Pharmacy</a>
+                        <Link to="/" className="font-bold text-xl">Pharmacy</Link>
                     </div>
                     <div className="hidden md:block">
                         <ul className="flex space-x-4">
-                            <li><a href="#" className="text-white hover:text-gray-300">Home</a></li>
+                           <li><Link to="/" className="text-white hover:text-gray-300">Home</Link></li>
                             <li><a href="#" className="text-white hover:text-gray-300">About us</a></li>
                             <li><a href="#" className="text-white hover:text-gray-300">How It Works</a></li>
                             <li><a href="#" className="text-white hover:text-gray-300">Contact Us</a></li>
                             <li><a href="#" className="text-white hover:text-gray-300">Buy</a></li>
                             <li><a href="#" className="text-white hover:text-gray-300">Sell</a></li>
-                            <Link to={"/login"}><li><a href="#" className="text-white hover:text-gray-300">Log In</a></li></Link>
-                            <Link to={"/signup"}><li><a href="#" className="text-white hover:text-gray-300">Sign Up</a></li></Link>
-
-
+                            <Link to="/login"><li><a href="#" className="text-white hover:text-gray-300">Log In</a></li></Link>
+                            <Link to="/signup"><li><a href="#" className="text-white hover:text-gray-300">Sign Up</a></li></Link>
                         </ul>
                     </div>
                     <div className="md:hidden">
